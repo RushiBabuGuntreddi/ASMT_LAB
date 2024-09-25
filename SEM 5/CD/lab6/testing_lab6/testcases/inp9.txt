@@ -1,0 +1,3 @@
+A -> Ba;
+B -> Cb;
+C -> Ba | Ca | Ab | Aa | Bb | a | b | c; 

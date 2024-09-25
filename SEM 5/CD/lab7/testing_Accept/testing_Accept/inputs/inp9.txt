@@ -1,0 +1,7 @@
+GRAMMAR
+A -> b | c;
+QUERY
+FIRST A
+FOLLOW A
+PROD A  b 
+PROD A  c 

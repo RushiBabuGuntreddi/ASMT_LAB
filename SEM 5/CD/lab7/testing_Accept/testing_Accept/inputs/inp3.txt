@@ -1,0 +1,9 @@
+GRAMMAR
+S -> (S)S | eps;
+
+QUERY
+FIRST S
+FOLLOW S
+PROD S  $ 
+PROD S  ( 
+PROD S  ) 

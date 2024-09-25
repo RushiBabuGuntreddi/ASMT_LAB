@@ -1,0 +1,4 @@
+E -> tE' ;
+E' -> /tE' | +tE' | *tE' | -tE' | eps ;
+F -> t/F | t+F | t*F | t-F | t ;
+G -> tE'/t | tE'+t | tE'*t | tE'-t | t ;

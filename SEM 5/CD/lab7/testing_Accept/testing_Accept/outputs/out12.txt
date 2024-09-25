@@ -1,0 +1,19 @@
+{a,d,eps}
+{b,eps}
+{d,eps}
+{a,b,d,eps}
+{$,b}
+{$}
+{$,b}
+{$}
+S-> AB
+S-> AB
+A-> C
+A-> aA
+A-> C
+A-> C
+B-> eps
+B-> bB
+C-> eps
+C-> eps
+C-> d

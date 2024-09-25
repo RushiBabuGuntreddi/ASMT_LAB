@@ -1,0 +1,12 @@
+{a,eps}
+{b,eps}
+{a,b}
+{$}
+{$}
+{$}
+S-> aA
+S-> bB
+Accept
+A-> aS
+B-> eps
+B-> bS

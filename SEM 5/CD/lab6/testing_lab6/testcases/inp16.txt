@@ -1,0 +1,4 @@
+A -> B;
+B -> Aa | b;
+C -> D;
+D -> CD | BD | v;

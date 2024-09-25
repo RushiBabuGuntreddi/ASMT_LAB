@@ -1,0 +1,8 @@
+GRAMMAR
+E -> t E';
+E' -> + t  E' | eps;
+
+QUERY
+FIRST E
+FOLLOW E'
+PROD E' +

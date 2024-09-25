@@ -1,0 +1,10 @@
+GRAMMAR
+M -> N' O;
+N' -> n | eps;
+O -> o;
+
+QUERY
+FIRST M
+FOLLOW M
+FOLLOW N'
+PROD O o

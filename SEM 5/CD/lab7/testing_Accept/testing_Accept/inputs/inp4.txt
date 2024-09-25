@@ -1,0 +1,11 @@
+GRAMMAR
+L -> iL';
+L' -> /iL' | eps;
+QUERY
+FIRST L
+FIRST L'
+FOLLOW L
+FOLLOW L'
+PROD L  i 
+PROD L' $ 
+PROD L' / 

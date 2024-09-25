@@ -1,0 +1,18 @@
+GRAMMAR
+E -> TE';
+E' -> +TE' | eps;
+T -> FT';
+T' -> *FT' | eps;
+F -> (E) | id;
+
+QUERY
+FIRST E
+FIRST E'
+FIRST T
+FIRST T'
+FIRST F
+FOLLOW E
+FOLLOW E'
+FOLLOW T
+FOLLOW T'
+FOLLOW F

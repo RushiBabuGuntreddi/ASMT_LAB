@@ -1,0 +1,49 @@
+
+GRAMMAR
+E -> T E';
+E' -> + T E' | eps;
+T -> F T';
+T' -> * F T' | eps;
+F -> ( E ) | a;
+
+QUERY
+FIRST E
+FIRST E'
+FIRST T
+FIRST T'
+FIRST F
+FOLLOW E
+FOLLOW E'
+FOLLOW T
+FOLLOW T'
+FOLLOW F
+PROD E +
+PROD E' +
+PROD T +
+PROD T' +
+PROD F +
+PROD E *
+PROD E' *
+PROD T *
+PROD T' *
+PROD F *
+PROD E a
+PROD E' a
+PROD T a
+PROD T' a
+PROD F a
+PROD E (
+PROD E' (
+PROD T (
+PROD T' (
+PROD F (
+PROD E )
+PROD E' )
+PROD T )
+PROD T' )
+PROD F )
+PROD E $
+PROD E' $
+PROD T $
+PROD T' $
+PROD F $

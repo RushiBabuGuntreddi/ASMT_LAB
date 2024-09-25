@@ -1,0 +1,5 @@
+{(,eps}
+{$,)}
+Accept
+S->(S)S
+S->eps

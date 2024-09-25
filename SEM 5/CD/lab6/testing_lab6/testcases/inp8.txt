@@ -1,0 +1,4 @@
+E -> E/t | E+t | E*t | E-t | t;
+F -> t/F | t+F | t*F | t-F | t;
+G -> E/t | E+t | E*t | E-t | t;
+

@@ -1,0 +1,5 @@
+A -> Da;
+B -> Db | b;
+C -> Dac | Dbd | bd | c | Dbs | bs;
+D -> bdD' | cD' | bsD' | bD';
+D' -> acD' | bdD' | bsD' | bD' | eps;

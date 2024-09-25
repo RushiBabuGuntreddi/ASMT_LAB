@@ -1,0 +1,3 @@
+A -> BC;
+B-> a| eps;
+C-> b | eps;

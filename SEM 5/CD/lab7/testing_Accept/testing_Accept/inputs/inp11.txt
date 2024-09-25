@@ -1,0 +1,34 @@
+GRAMMAR
+S -> ABC;
+A -> aA' | eps;
+A' -> aA' | b;
+B -> cB' | eps;
+B' -> cB' | eps;
+C -> d;
+
+QUERY
+FIRST A
+FIRST A'
+FIRST B
+FIRST B'
+FIRST C
+FIRST S
+FOLLOW A
+FOLLOW A'
+FOLLOW B
+FOLLOW B'
+FOLLOW C
+FOLLOW S
+PROD S  a 
+PROD S  c 
+PROD S  d 
+PROD A  a 
+PROD A  c 
+PROD A  d 
+PROD A' a 
+PROD A' b 
+PROD B  c 
+PROD B  d 
+PROD B' c 
+PROD B' d 
+PROD C  d 

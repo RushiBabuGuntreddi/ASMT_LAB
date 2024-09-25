@@ -1,0 +1,4 @@
+A -> Da;
+B -> Db | b;
+C -> Ac | Bd | c| Bs;
+D -> C | B;

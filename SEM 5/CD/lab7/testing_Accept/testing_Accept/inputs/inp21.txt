@@ -1,0 +1,57 @@
+GRAMMAR
+S -> sA;
+A -> XYZa | BaXYZ;
+B -> bb;
+X -> x|eps
+Y-> y|eps;
+Z -> z |eps;
+
+QUERY
+First S
+FIRST A
+FIRST B
+FIRST X 
+FIRST Y 
+FIRST Z 
+FOLLOW S
+FOLLOW A
+FOLLOW B
+FOLLOW X 
+FOLLOW Y 
+FOLLOW Z 
+PROD S a 
+PROD S b 
+PROD S x 
+PROD S y 
+PROD S z 
+PROD S s
+PROD A a 
+PROD A b 
+PROD A x 
+PROD A y 
+PROD A z 
+PROD A s
+PROD B a 
+PROD B b 
+PROD B x 
+PROD B y 
+PROD B z 
+PROD B s
+PROD X a 
+PROD X b 
+PROD X x 
+PROD X y 
+PROD X z 
+PROD X s
+PROD Y a 
+PROD Y b 
+PROD Y x 
+PROD Y y 
+PROD Y z 
+PROD Y s
+PROD Z a 
+PROD Z b 
+PROD Z x 
+PROD Z y 
+PROD Z z 
+PROD Z s

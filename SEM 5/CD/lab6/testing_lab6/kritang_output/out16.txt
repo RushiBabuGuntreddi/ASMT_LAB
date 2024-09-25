@@ -1,0 +1,6 @@
+A -> B ;
+B -> bB' ;
+B' -> aB' | eps ;
+C -> D ;
+D -> bB'DD' | vD' ;
+D' -> DD' | eps ;

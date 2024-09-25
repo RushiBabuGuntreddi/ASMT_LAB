@@ -1,0 +1,4 @@
+A -> Ba | a ;
+B -> Cb | b ;
+C -> bacC' | acC' | cC' ;
+C' -> bacC' | eps ;

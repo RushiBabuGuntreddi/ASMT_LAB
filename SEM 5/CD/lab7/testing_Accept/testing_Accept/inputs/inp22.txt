@@ -1,0 +1,21 @@
+GRAMMAR
+E -> F E';
+E' -> + F E' | eps;
+F -> a;
+
+QUERY
+FIRST E
+FIRST E'
+FIRST F
+FOLLOW E
+FOLLOW E'
+FOLLOW F
+PROD E +
+PROD E' +
+PROD F +
+PROD E a
+PROD E' a
+PROD F a
+PROD E $
+PROD E' $
+PROD F $

@@ -1,0 +1,8 @@
+GRAMMAR
+S -> a A | b B;
+A -> a S | eps;
+B -> b S | eps;
+
+QUERY
+FIRST S
+FIRST B

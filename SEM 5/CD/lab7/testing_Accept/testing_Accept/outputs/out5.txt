@@ -1,0 +1,19 @@
+{a,eps,s}
+{b,eps}
+{a,b,eps,s}
+{s}
+{$,b}
+{$}
+{$}
+{$,b}
+Accept
+S-> AB
+S-> AB
+S-> AB
+A-> eps
+A-> aA
+A-> eps
+A-> S'
+S'-> s
+B-> eps
+B-> bB

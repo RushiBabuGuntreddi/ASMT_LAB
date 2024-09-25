@@ -1,0 +1,18 @@
+GRAMMAR
+A -> b;
+B -> c;
+C -> d;
+S -> ad;
+QUERY
+FIRST A
+FIRST B
+FIRST C
+FIRST S
+FOLLOW A
+FOLLOW B
+FOLLOW C
+FOLLOW S
+PROD A  b 
+PROD B  c 
+PROD C  d 
+PROD S  a 

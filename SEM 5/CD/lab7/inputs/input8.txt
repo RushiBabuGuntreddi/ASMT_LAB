@@ -1,0 +1,12 @@
+GRAMMAR
+A -> BC | a;
+B -> eps | b;
+C -> eps | c;
+
+QUERY
+FIRST A
+FIRST B
+FIRST C
+FOLLOW A
+FOLLOW B
+FOLLOW C

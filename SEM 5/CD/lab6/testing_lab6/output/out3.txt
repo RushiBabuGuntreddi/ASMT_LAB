@@ -1,0 +1,4 @@
+A -> eA';
+A' -> dA' | eps;
+B -> gB' | hB';
+B' -> fB' | eps;

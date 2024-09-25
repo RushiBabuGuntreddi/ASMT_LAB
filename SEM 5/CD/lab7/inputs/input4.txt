@@ -1,0 +1,8 @@
+GRAMMAR
+L -> i L';
+L' -> / i L' | eps;
+
+QUERY
+FIRST L
+PROD L /
+PROD L' i

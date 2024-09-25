@@ -1,0 +1,3 @@
+A -> Ba+-sh*vs/b;
+B -> cB';
+B' -> a+-sh*vs/bbB' | eps;

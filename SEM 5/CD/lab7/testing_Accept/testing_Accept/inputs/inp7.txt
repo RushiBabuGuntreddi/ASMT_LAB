@@ -1,0 +1,30 @@
+GRAMMAR
+E -> TE';
+E' -> +TE' | eps;
+T -> FT';
+T' -> *FT' | eps;
+F -> (E) | a;
+QUERY
+FIRST E
+FIRST E'
+FIRST F
+FIRST T
+FIRST T'
+FOLLOW E
+FOLLOW E'
+FOLLOW F
+FOLLOW T
+FOLLOW T'
+PROD E  ( 
+PROD E  a 
+PROD E' $ 
+PROD E' ) 
+PROD E' + 
+PROD T  ( 
+PROD T  a 
+PROD T' $ 
+PROD T' ) 
+PROD T' * 
+PROD T' + 
+PROD F  ( 
+PROD F  a 

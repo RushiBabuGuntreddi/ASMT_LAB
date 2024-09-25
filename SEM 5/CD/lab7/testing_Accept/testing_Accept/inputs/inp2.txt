@@ -1,0 +1,18 @@
+GRAMMAR
+A -> aS | eps;
+B -> bS | eps;
+S -> aA | bB;
+
+QUERY
+FIRST A
+FIRST B
+FIRST S
+FOLLOW A
+FOLLOW B
+FOLLOW S
+PROD S  a 
+PROD S  b 
+PROD A  $ 
+PROD A  a 
+PROD B  $ 
+PROD B  b 

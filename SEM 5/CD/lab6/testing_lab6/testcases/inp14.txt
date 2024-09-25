@@ -1,0 +1,6 @@
+A -> Ba | Bb | Bc | Bd | Be | Ez | z;
+B -> Cf | Cg | Ch | Ci | Cj | Ez | z;
+C -> Dk | Dl | Dm | Dn | Do | Ez | z;
+D -> Ep | Eq | Er | Es | Et | Ez | z;
+E -> Au | Av | Aw | Ax | Ay | z;
+

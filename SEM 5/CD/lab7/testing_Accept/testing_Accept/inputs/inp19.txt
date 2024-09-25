@@ -1,0 +1,13 @@
+GRAMMAR
+E -> T E' ;
+E' -> + T E' | eps ;
+T -> F T' ;
+T' -> * F T' | eps ;
+F -> (E) | i ;
+
+QUERY
+FOLLOW E 
+FOLLOW E'
+FOLLOW T 
+FOLLOW T'
+FOLLOW F
